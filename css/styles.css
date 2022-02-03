@@ -500,7 +500,6 @@ section.section.features {
 /* Наши работы */
 
 .examples-elements {
-  position: relative;
   background: #ffffff;
 
   max-width: 370px;
@@ -539,8 +538,7 @@ section.section.features {
   overflow: hidden;
 }
 
-.examples-elements:hover,
-.examples-elements:focus .overlay-text {
+.examples-elements:hover .overlay-text {
   transform: translateY(0);
 }
 
